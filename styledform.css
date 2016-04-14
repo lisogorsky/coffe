@@ -1,0 +1,69 @@
+body {
+	background: #efe5d0 url(images/background.gif) top left;
+	margin: 15px;
+}
+
+#allconnect {
+	width: 800px;
+	padding: 5 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header5 {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 150px;
+	float: left;
+}
+
+#header7 {
+	position: relative;
+	top: 90px;
+	left: -131px;
+	width: 121px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+h2 {
+	 font-size:  16px;
+}
+
+form {
+	display: table;
+	padding: 0 10px 10px 10px;
+	border: thin dotted #7e7e7e;
+	border-radius: 20px;
+	background-color: #e1ceb8;
+	margin-top: -37px;
+}
+
+form textarea {
+	width: 370px;
+	height: 45px;
+}
+
+.px100 {
+	width: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	width: 40%;
+	letter-spacing: 1.2;
+	vertical-align: top;
+	padding: 3px 10px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
